@@ -11,10 +11,10 @@ get_header();
     <div class="col">
       <div class="col__wrap">
         <?php get_template_part( 'template-parts/header' );?>
-        <div class="col__content">
+        <div class="col__content transition-fadeTop">
           <div class="col__titlle-wrap transition-fadeTop">
-            <h1 class="col__title col__title--secondary wow bounceInLeft" data-wow-duration=".7s" data-wow-delay=".5s"><?php echo CFS()->get( 'title' ); ?></h1>
-            <h2 class="col__sub-title col__sub-title--secondary wow bounceInLeft" data-wow-duration=".7s" data-wow-delay=".6s"><?php echo CFS()->get( 'subtitle' ); ?></h2>
+            <h1 class="col__title col__title--secondary"><?php echo CFS()->get( 'title' ); ?></h1>
+            <h2 class="col__sub-title col__sub-title--secondary"><?php echo CFS()->get( 'subtitle' ); ?></h2>
           </div>
           <div class="about-desc">
           <?php
@@ -22,10 +22,8 @@ get_header();
                 foreach($additionalInfo as $item) {
                   ?>
                 <div class="col__titlle-wrap transition-fadeTop">
-              <h1 class="col__title col__title--secondary wow bounceInLeft" data-wow-duration=".7s"
-                data-wow-delay=".5s"><?php echo $item['title'] ?></h1>
-              <h2 class="col__sub-title col__sub-title--secondary wow bounceInLeft" data-wow-duration=".7s"
-                data-wow-delay=".6s"><?php echo $item['subtitle'] ?></h2>
+              <h1 class="col__title col__title--secondary"><?php echo $item['title'] ?></h1>
+              <h2 class="col__sub-title col__sub-title--secondary"><?php echo $item['subtitle'] ?></h2>
             </div>
                   <?php
                 }

@@ -1,0 +1,86 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 08.04.2021 15:35
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.4.0
+WORDPRESS:	5.7
+PHP INFO:	7.3.17 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (1536M default) 
+MEMORY STACK: 6MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20210408_averspay_a146a775d6482f452858_20210408153523_database.sql
+SQL FILE SIZE: 1.04MB (1086965)
+SQL FILE TIME: 2021-04-08 15:35:47
+SQL RUNTIME: 0.82 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  C:/work/OpenServer/domains/averspay.loc
+ARCHIVE FILE: 20210408_averspay_a146a775d6482f452858_20210408153523_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	100.05MB
+STATS:	Dirs 737 | Files 6,490
+SQL ADDED: 20210408_averspay_a146a775d6482f452858_20210408153523_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 7227
+    [filename] => C:\work\OpenServer\domains\averspay.loc\wp-content\backups-dup-lite\tmp\20210408_averspay_a146a775d6482f452858_20210408153523_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 7226
+[PHP ERR][NOTICE] MSG:ob_flush(): failed to flush buffer. No buffer to flush [CODE:8|FILE:C:\work\OpenServer\domains\averspay.loc\wp-content\plugins\duplicator\classes\utilities\class.u.php|LINE:171]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Archive->build, DUP_Zip::create, DUP_Util::fcgiFlush, ob_flush, DUP_Handler::error, DUP_Handler::getMessage
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 52.4MB
+ARCHIVE RUNTIME: 12.12 sec.
+MEMORY STACK: 8MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip C:/work/OpenServer/domains/averspay.loc/wp-content/backups-dup-lite/tmp/20210408_averspay_a146a775d6482f452858_20210408153523_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 1.04MB
+INSTALLER FILE: 63.95KB
+ARCHIVE FILE: 53.99MB 
+EXPECTED FILE/DIRECTORY COUNT: 7,227
+ACTUAL FILE/DIRECTORY COUNT: 7,226
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 14.04 sec.
+PEAK PHP MEMORY USED: 10MB
+DONE PROCESSING => 20210408_averspay 08.04.2021 15:36
+

@@ -13,7 +13,7 @@
 
 
   <script src="<?php echo get_template_directory_uri(); ?>/assets/scripts.min.js" data-swup-reload-script></script>
-  
 </body>
 
 </html>
+<? wp_footer(); ?>

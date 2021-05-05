@@ -193,8 +193,3 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 
 
-// function my_custom_js() {
-//     echo "<script charset='utf-8'>document.addEventListener('swup:pageLoaded', (event) => {window.location.reload();});</script>";
-// }
-
-// add_action( 'wp_footer', 'my_custom_js' );

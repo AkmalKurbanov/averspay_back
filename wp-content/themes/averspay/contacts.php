@@ -59,7 +59,7 @@ get_header();
                   ?>
               <li>
                 <span>
-                  <a href="<?php echo $item['social_link'] ?>">
+                  <a href="<?php echo $item['social_link'] ?>" target="_blank">
                     <img src="<?php echo $item['social_icon'] ?>" alt="">
                   </a>
                   </span>
